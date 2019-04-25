@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
-const devs = ['422037009960402956'];
+const devs = ['389090790984515594'];
 const db = require('quick.db');
-const premium = ['422037009960402956']
+const premium = ['470896018603376640']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['ahelp','Type ahelp'];
+    var setGame = ['xhelp','Type xhelp'];
     var i = -1;
     var j = 0;
     setInterval(function (){
